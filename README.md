@@ -20,6 +20,7 @@
 
 6. 트러플 콘솔창에서
    nft = await MyNFTs.deployed()
+   
    nft.mint("http://gateway.pinata.cloud/ipfs/ipfsHash")
 
 
