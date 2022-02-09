@@ -4,7 +4,7 @@
 사용법
 
 사전작업
-.env파일 생성하여 pinata API키, 시크릿, JWT등을 넣고, PRIVATE_KEY에는 지갑 개인키를 넣는다.     
+.env파일 생성하여 pinata API키, 시크릿, JWT등을 넣고, PRIVATE_KEY에는 카이카스지갑 개인키를 넣는다.     
 프로젝트에 NFT파일을 위치시킨다.
 
 1. uploadFilse.js에서 14번째줄 주석 해제, 15줄 주석처리 후 node uploadFile.js
@@ -21,3 +21,6 @@
 6. 트러플 콘솔창에서
    nft = await MyNFTs.deployed()
    nft.mint("http://gateway.pinata.cloud/ipfs/ipfsHash")
+
+
+오픈씨 testnet접속 후 카이카스로 로그인.
